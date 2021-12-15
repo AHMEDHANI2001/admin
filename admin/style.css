@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-box-sizing: border-box;   
+}
+body{
+    font-family: Arial, Tahoma;
+    background-color: cornflowerblue;
+}
+.main{
+    border: 1px solid;
+    padding: 15px;
+    color: darkred;
+    background: black;
+    text-align: center;
+}
+nav {
+    background-color: #DDD;
+    
+}
+
+nav ul {
+    padding: 15px 10px 0px 10px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li:after{
+    content: " |"
+}
+nav ul li:last-child:after{
+    content: "";
+}
+main{
+    border: groove;
+    text-align: center;
+    padding: 10px;
+    margin-block: 0px 8px 10px 5px;
+    background-color: aliceblue;
+}
+section{
+    text-align: center;
+    margin: auto;
+    width: min-content;
+    padding: 21px;
+}
+.lables{
+    border: solid;
+    margin: inherit;
+    background-color: aqua;
+    font-size: x-large;
+    padding: 10px;
+}
+.lables span{
+    border: hidden;
+    background-color: black;
+    color: azure;
+    padding: 5px;
+}
+.post{
+    margin: 30px;
+    border: 1px solid;
+    padding: 30px;
+    background-color: deepskyblue;
+}
+.button{
+    font-size: inherit;
+}
